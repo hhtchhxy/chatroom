@@ -1,0 +1,489 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\NET\\ChatRoom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|d:\\net\\chatroom\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|d:\\net\\chatroom\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6830B90F-1B91-4763-8B64-66300140B1C1}|..\\ChatRoom.Service\\ChatRoom.Service.csproj|d:\\net\\chatroom.service\\messageworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|..\\ChatRoom.Core\\ChatRoom.Core.csproj|d:\\net\\chatroom.core\\sqlsuger\\sugerdbextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|d:\\net\\chatroom\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6830B90F-1B91-4763-8B64-66300140B1C1}|..\\ChatRoom.Service\\ChatRoom.Service.csproj|d:\\net\\chatroom.service\\user\\userservice\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F79BBCA-8460-4D61-898C-2850AF568D1B}|..\\ChatRoom.Model\\ChatRoom.Model.csproj|d:\\net\\chatroom.model\\dto\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|d:\\net\\chatroom\\serivceextention\\chatroomserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|solutionrelative:serivceextention\\chatroomserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|d:\\net\\chatroom\\filter\\modelvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|solutionrelative:filter\\modelvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|d:\\net\\chatroom\\chatroom.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|solutionrelative:chatroom.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|..\\ChatRoom.Core\\ChatRoom.Core.csproj|d:\\net\\chatroom.core\\chatroom.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|..\\ChatRoom.Core\\ChatRoom.Core.csproj|d:\\net\\chatroom.core\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|d:\\net\\chatroom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|d:\\net\\chatroom\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|solutionrelative:middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|..\\ChatRoom.Core\\ChatRoom.Core.csproj|d:\\net\\chatroom.core\\cache\\localcachehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6830B90F-1B91-4763-8B64-66300140B1C1}|..\\ChatRoom.Service\\ChatRoom.Service.csproj|d:\\net\\chatroom.service\\chatroom.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|d:\\net\\chatroom\\wwwroot\\chatindex.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|solutionrelative:wwwroot\\chatindex.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|d:\\net\\chatroom\\wwwroot\\common.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|solutionrelative:wwwroot\\common.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|d:\\net\\chatroom\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|d:\\net\\chatroom\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F79BBCA-8460-4D61-898C-2850AF568D1B}|..\\ChatRoom.Model\\ChatRoom.Model.csproj|d:\\net\\chatroom.model\\chatroom.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92EAF09-6535-44D2-A8D4-AFB2645692D5}|..\\ChatRoom.Repository\\ChatRoom.Repository.csproj|d:\\net\\chatroom.repository\\repositorybase\\repositoryservice\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F79BBCA-8460-4D61-898C-2850AF568D1B}|..\\ChatRoom.Model\\ChatRoom.Model.csproj|d:\\net\\chatroom.model\\models\\tablebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|..\\ChatRoom.Core\\ChatRoom.Core.csproj|d:\\net\\chatroom.core\\tools\\commontools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|d:\\net\\chatroom\\serivceextention\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api.csproj|solutionrelative:serivceextention\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92EAF09-6535-44D2-A8D4-AFB2645692D5}|..\\ChatRoom.Repository\\ChatRoom.Repository.csproj|d:\\net\\chatroom.repository\\repositorybase\\irepositoryservice\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|..\\ChatRoom.Core\\ChatRoom.Core.csproj|d:\\net\\chatroom.core\\extension\\httpcontextextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F79BBCA-8460-4D61-898C-2850AF568D1B}|..\\ChatRoom.Model\\ChatRoom.Model.csproj|d:\\net\\chatroom.model\\config\\connectionstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|..\\ChatRoom.Core\\ChatRoom.Core.csproj|d:\\net\\chatroom.core\\sqlsuger\\searchcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\NET\\ChatRoom\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA9wBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T14:30:27.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom.Service\\User\\UserService\\LoginService.cs",
+              "RelativeDocumentMoniker": "..\\ChatRoom.Service\\User\\UserService\\LoginService.cs",
+              "ToolTip": "D:\\NET\\ChatRoom.Service\\User\\UserService\\LoginService.cs",
+              "RelativeToolTip": "..\\ChatRoom.Service\\User\\UserService\\LoginService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAtwEkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T14:36:42.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\NET\\ChatRoom\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAtwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T16:35:52.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom.Core\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "..\\ChatRoom.Core\\Hubs\\ChatHub.cs",
+              "ToolTip": "D:\\NET\\ChatRoom.Core\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "..\\ChatRoom.Core\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowBkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T16:22:22.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SugerDBExtensions.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom.Core\\SqlSuger\\SugerDBExtensions.cs",
+              "RelativeDocumentMoniker": "..\\ChatRoom.Core\\SqlSuger\\SugerDBExtensions.cs",
+              "ToolTip": "D:\\NET\\ChatRoom.Core\\SqlSuger\\SugerDBExtensions.cs",
+              "RelativeToolTip": "..\\ChatRoom.Core\\SqlSuger\\SugerDBExtensions.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T16:08:34.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessageWorker.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom.Service\\MessageWorker.cs",
+              "RelativeDocumentMoniker": "..\\ChatRoom.Service\\MessageWorker.cs",
+              "ToolTip": "D:\\NET\\ChatRoom.Service\\MessageWorker.cs",
+              "RelativeToolTip": "..\\ChatRoom.Service\\MessageWorker.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAtwBoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T03:59:00.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\NET\\ChatRoom\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\NET\\ChatRoom\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-01T13:05:22.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChatRoom.Api",
+              "DocumentMoniker": "D:\\NET\\ChatRoom\\ChatRoom.Api.csproj",
+              "RelativeDocumentMoniker": "ChatRoom.Api.csproj",
+              "ToolTip": "D:\\NET\\ChatRoom\\ChatRoom.Api.csproj",
+              "RelativeToolTip": "ChatRoom.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-02T08:46:05.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "readme.md",
+              "DocumentMoniker": "D:\\NET\\ChatRoom\\readme.md",
+              "RelativeDocumentMoniker": "readme.md",
+              "ToolTip": "D:\\NET\\ChatRoom\\readme.md",
+              "RelativeToolTip": "readme.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-09-02T12:12:46.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChatRoomServiceExtensions.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom\\SerivceExtention\\ChatRoomServiceExtensions.cs",
+              "RelativeDocumentMoniker": "SerivceExtention\\ChatRoomServiceExtensions.cs",
+              "ToolTip": "D:\\NET\\ChatRoom\\SerivceExtention\\ChatRoomServiceExtensions.cs",
+              "RelativeToolTip": "SerivceExtention\\ChatRoomServiceExtensions.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAwFoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T11:23:59.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom.Model\\DTO\\User\\UserDTO.cs",
+              "RelativeDocumentMoniker": "..\\ChatRoom.Model\\DTO\\User\\UserDTO.cs",
+              "ToolTip": "D:\\NET\\ChatRoom.Model\\DTO\\User\\UserDTO.cs",
+              "RelativeToolTip": "..\\ChatRoom.Model\\DTO\\User\\UserDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T14:32:32.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ModelValidationFilter.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom\\Filter\\ModelValidationFilter.cs",
+              "RelativeDocumentMoniker": "Filter\\ModelValidationFilter.cs",
+              "ToolTip": "D:\\NET\\ChatRoom\\Filter\\ModelValidationFilter.cs",
+              "RelativeToolTip": "Filter\\ModelValidationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T08:53:08.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChatRoom.Core",
+              "DocumentMoniker": "D:\\NET\\ChatRoom.Core\\ChatRoom.Core.csproj",
+              "RelativeDocumentMoniker": "..\\ChatRoom.Core\\ChatRoom.Core.csproj",
+              "ToolTip": "D:\\NET\\ChatRoom.Core\\ChatRoom.Core.csproj",
+              "RelativeToolTip": "..\\ChatRoom.Core\\ChatRoom.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-02T03:07:02.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "D:\\NET\\ChatRoom\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "Middleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAiwDoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T16:06:21.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "D:\\NET\\ChatRoom\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwC8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T12:52:36.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "common.js",
+              "DocumentMoniker": "D:\\NET\\ChatRoom\\wwwroot\\common.js",
+              "RelativeDocumentMoniker": "wwwroot\\common.js",
+              "ToolTip": "D:\\NET\\ChatRoom\\wwwroot\\common.js",
+              "RelativeToolTip": "wwwroot\\common.js",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-02T02:45:37.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "chatIndex.html",
+              "DocumentMoniker": "D:\\NET\\ChatRoom\\wwwroot\\chatIndex.html",
+              "RelativeDocumentMoniker": "wwwroot\\chatIndex.html",
+              "ToolTip": "D:\\NET\\ChatRoom\\wwwroot\\chatIndex.html",
+              "RelativeToolTip": "wwwroot\\chatIndex.html",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAAABgBAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-02T02:42:34.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LocalCacheHelper.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom.Core\\Cache\\LocalCacheHelper.cs",
+              "RelativeDocumentMoniker": "..\\ChatRoom.Core\\Cache\\LocalCacheHelper.cs",
+              "ToolTip": "D:\\NET\\ChatRoom.Core\\Cache\\LocalCacheHelper.cs",
+              "RelativeToolTip": "..\\ChatRoom.Core\\Cache\\LocalCacheHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T03:43:45.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChatRoom.Service.csproj",
+              "DocumentMoniker": "D:\\NET\\ChatRoom.Service\\ChatRoom.Service.csproj",
+              "RelativeDocumentMoniker": "..\\ChatRoom.Service\\ChatRoom.Service.csproj",
+              "ToolTip": "D:\\NET\\ChatRoom.Service\\ChatRoom.Service.csproj",
+              "RelativeToolTip": "..\\ChatRoom.Service\\ChatRoom.Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-01T14:35:49.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\NET\\ChatRoom\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\NET\\ChatRoom\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-01T14:28:27.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ChatRoom.Model.csproj",
+              "DocumentMoniker": "D:\\NET\\ChatRoom.Model\\ChatRoom.Model.csproj",
+              "RelativeDocumentMoniker": "..\\ChatRoom.Model\\ChatRoom.Model.csproj",
+              "ToolTip": "D:\\NET\\ChatRoom.Model\\ChatRoom.Model.csproj",
+              "RelativeToolTip": "..\\ChatRoom.Model\\ChatRoom.Model.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-01T14:32:04.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom.Repository\\RepositoryBase\\RepositoryService\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "..\\ChatRoom.Repository\\RepositoryBase\\RepositoryService\\BaseRepository.cs",
+              "ToolTip": "D:\\NET\\ChatRoom.Repository\\RepositoryBase\\RepositoryService\\BaseRepository.cs",
+              "RelativeToolTip": "..\\ChatRoom.Repository\\RepositoryBase\\RepositoryService\\BaseRepository.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAASwH4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T11:47:30.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TableBase.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom.Model\\Models\\TableBase.cs",
+              "RelativeDocumentMoniker": "..\\ChatRoom.Model\\Models\\TableBase.cs",
+              "ToolTip": "D:\\NET\\ChatRoom.Model\\Models\\TableBase.cs",
+              "RelativeToolTip": "..\\ChatRoom.Model\\Models\\TableBase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvwkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T16:09:28.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CommonTools.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom.Core\\Tools\\CommonTools.cs",
+              "RelativeDocumentMoniker": "..\\ChatRoom.Core\\Tools\\CommonTools.cs",
+              "ToolTip": "D:\\NET\\ChatRoom.Core\\Tools\\CommonTools.cs",
+              "RelativeToolTip": "..\\ChatRoom.Core\\Tools\\CommonTools.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T16:01:23.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom.Repository\\RepositoryBase\\IRepositoryService\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "..\\ChatRoom.Repository\\RepositoryBase\\IRepositoryService\\IBaseRepository.cs",
+              "ToolTip": "D:\\NET\\ChatRoom.Repository\\RepositoryBase\\IRepositoryService\\IBaseRepository.cs",
+              "RelativeToolTip": "..\\ChatRoom.Repository\\RepositoryBase\\IRepositoryService\\IBaseRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T11:45:42.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom\\SerivceExtention\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "SerivceExtention\\ServiceExtensions.cs",
+              "ToolTip": "D:\\NET\\ChatRoom\\SerivceExtention\\ServiceExtensions.cs",
+              "RelativeToolTip": "SerivceExtention\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T12:09:45.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HttpContextExtension.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom.Core\\Extension\\HttpContextExtension.cs",
+              "RelativeDocumentMoniker": "..\\ChatRoom.Core\\Extension\\HttpContextExtension.cs",
+              "ToolTip": "D:\\NET\\ChatRoom.Core\\Extension\\HttpContextExtension.cs",
+              "RelativeToolTip": "..\\ChatRoom.Core\\Extension\\HttpContextExtension.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T13:54:29.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ConnectionStrings.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom.Model\\Config\\ConnectionStrings.cs",
+              "RelativeDocumentMoniker": "..\\ChatRoom.Model\\Config\\ConnectionStrings.cs",
+              "ToolTip": "D:\\NET\\ChatRoom.Model\\Config\\ConnectionStrings.cs",
+              "RelativeToolTip": "..\\ChatRoom.Model\\Config\\ConnectionStrings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T12:45:33.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SearchCondition.cs",
+              "DocumentMoniker": "D:\\NET\\ChatRoom.Core\\SqlSuger\\SearchCondition.cs",
+              "RelativeDocumentMoniker": "..\\ChatRoom.Core\\SqlSuger\\SearchCondition.cs",
+              "ToolTip": "D:\\NET\\ChatRoom.Core\\SqlSuger\\SearchCondition.cs",
+              "RelativeToolTip": "..\\ChatRoom.Core\\SqlSuger\\SearchCondition.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T11:35:17.298Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
