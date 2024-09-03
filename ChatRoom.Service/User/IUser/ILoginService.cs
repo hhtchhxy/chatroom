@@ -1,4 +1,5 @@
-﻿using ChatRoom.Model.DTO.User;
+﻿using ChatRoom.Core.SerivceExtention;
+using ChatRoom.Model.DTO.User;
 using ChatRoom.Model.Models.User;
 using ChatRoom.Repository.RepositoryBase;
 using System;
@@ -12,13 +13,13 @@ namespace ChatRoom.Service.User.IUser
     public interface ILoginService : IBaseDomain
     {
         /// <summary>
-        /// 注册
+        /// user register
         /// </summary>
         /// <param name="dto"></param>
         /// <returns></returns>
         public Task<bool> Register(UserDTO dto);
         /// <summary>
-        /// 登录
+        /// user login
         /// </summary>
         /// <param name="dto"></param>
         /// <returns></returns>

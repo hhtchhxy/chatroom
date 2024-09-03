@@ -1,0 +1,326 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        html {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            margin: 0 auto;
+            height: 600px;
+            width: 256px;
+            background-color: aqua;
+        }
+
+            .box > div {
+                background-color: antiquewhite;
+                padding: 10px;
+                border: 1px solid #aaaaff;
+            }
+
+                .box > div:hover {
+                    background-color: beige;
+                }
+
+        .msg {
+            margin: 0 auto;
+            height: 400px;
+            width: 500px;
+            background-color: aqua;
+            overflow: hidden;
+            left: -20px;
+        }
+
+        .t {
+            max-height: 70%;
+            height: 70%;
+            width: 100%;
+            background-color: #ffaa00;
+            overflow-y: scroll;
+        }
+
+            .t > div {
+                margin: 6px;
+                font-size: 14px;
+            }
+
+        .b {
+            margin-top: 1px;
+            max-height: 30%;
+            height: 29%;
+            width: 100%;
+            background-color: #55aaff;
+        }
+
+        textarea {
+            width: 96%;
+            height: 94%;
+        }
+
+        .self {
+            text-align: right;
+        }
+
+        .name {
+            color: #1a38ff;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .myname {
+            margin: 0 auto;
+        }
+
+        .dian {
+            position: absolute;
+            color: white;
+            font-size: 17px;
+            background-color: red;
+            /*height: 24px;改前*/
+            min-height: 15px;
+            /*改后新增的代码*/
+            min-width: 15px;
+            /*改后新增的代码*/
+            line-height: 15px;
+            right: 40%;
+            text-align: center;
+            -webkit-border-radius: 15px;
+            border-radius: 15px;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="myname">{{user.name}}</div>
+        <div class="box" v-show="!showbox">
+            <div v-for="item in userlst" @dblclick="trun(item)">
+                <div v-if="item.state" class="dian"> {{item.state}} </div>
+                {{item.name}}
+            </div>
+        </div>
+        <div class="msg" v-show="showbox">
+            <div>
+                <button title="返回" @click="trun()">
+                    <
+                </button>
+                {{nowuser.name}}
+            </div>
+            <div class="t" id="t">
+                <div v-for="item in nowmsglst" :class="{'self':item.id==user.id}">
+                    <div class="name" v-if="item.id==user.id">{{user.name}}:</div>
+                    <div class="name" v-else>{{nowuser.name}}</div>
+                    <div class="conent">{{item.msg}}</div>
+                </div>
+            </div>
+            <div class="b">
+                <textarea id="smg" @keyup.enter="sendmsg()" v-model="nowmsg"></textarea>
+            </div>
+        </div>
+    </div>
+    </div>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="signalr.js"></script>
+    <script src="common.js"></script>
+    <script>var app = new Vue({
+				el: '#app',
+				data() {
+					return {
+						//链接
+						connection: null,
+						showbox: false,
+						nowmsg: '',
+						user: {
+							id: '1',
+							name: 'api error'
+						},
+						//用户列表
+						userlst: [],
+						//与用户的聊天记录
+						msglst: [{
+							id: '',
+							msg: [{
+
+							}]
+						}],
+						//当前聊天对象
+						nowuser: {
+							id: 0,
+							name: '123'
+						},
+						//当前聊天记录
+						nowmsglst: []
+					}
+				},
+				created: function() {
+					this.connection = new signalR.HubConnectionBuilder()
+                        .withUrl("http://localhost:5299/chatHub")
+						.build();
+
+					//如果连接断开，尝试重新连接
+					this.connection.onclose(async () => {
+						await this.start();
+					});
+
+					// 开始连接.
+					this.start();
+					//ReceiveMessage 与后端对应 ，接收中心发来的消息
+					this.connection.on("ReceiveMessage", (res) => {
+						console.log(res, "收到消息");
+						switch (res.message) {
+							case 'relst': //中心通知有新用户加入
+								console.log("更新在线列表");
+								this.getUserLst();
+								break;
+							default: //默认接收消息处理
+
+								//得到当前发送者的消息集位置
+								let inx = this.msglst.findIndex(t => {
+									return t.id == res.id
+								});
+								//如果不存在，则添加进消息集
+								//否则在指定用户消息及添加消息
+								if (inx == -1) {
+									this.msglst.push({
+										id: res.id,
+										msg: [{
+											id: res.id,
+											msg: res.message
+										}]
+									})
+								} else {
+									this.msglst[inx].msg.push({
+										id: res.id,
+										msg: res.message
+									})
+								}
+								//消息加1
+								this.editState(res.id, true);
+								//如果为当前聊天用户，赋值并自动滑到底部
+								if (this.nowuser.id == res.id) {
+									nowmsglst.push({
+										id: res.id,
+										msg: res.message
+									})
+									this.editState(res.id, false);
+									this.scrollTop();
+								};
+
+								break;
+						}
+					});
+				},
+				methods: {
+					//连接方法，如果连接失败，5s后重新连接
+					start: async function() {
+						try {
+							await this.connection.start();
+							this.user.name =getName(); //得到当前用户名
+							this.user.id = this.getmyid(); //得到当前用户ID
+							this.login(); //主动加入到用户列表
+							console.log("连接成功.");
+						} catch (err) {
+							console.log(err);
+							setTimeout(this.start, 5000);
+						}
+					},
+					//跳转
+					trun: async function(d) {
+						if (d) {
+							this.nowuser = d;
+							this.editState(d.id, false);
+						}
+						this.showbox = !this.showbox;
+						let res = await this.msglst.findIndex(t => {
+							return t.id == this.nowuser.id
+						});
+						if (res >= 0) {
+							this.nowmsglst = this.msglst[res].msg;
+						} else {
+							this.nowmsglst = [{
+								id: '',
+								msg: ''
+							}];
+						}
+
+					},
+					//登入并获取用户列表
+					login: function() {
+						this.connection.invoke("AddUser", this.user.name);
+					},
+					//获取在线用户列表
+					getUserLst: function() {
+						this.connection.invoke("GetUser").then(res => {
+							console.log(res, "getuser");
+							this.createlst(res);
+						});
+					},
+					//获取个人ID
+					getmyid: function() {
+						this.connection.invoke("GetConnectionId").then(res => {
+							return res;
+						});
+					},
+					//发送消息
+					sendmsg: async function() {
+						this.connection.send("SendToOne", this.nowuser.id, this.nowmsg)
+						var obj = {
+							id: this.user.id,
+							msg: this.nowmsg
+						};
+						this.nowmsglst.push(obj);
+						let res = await this.msglst.findIndex(t => {
+							return t.id == this.nowuser.id
+						});
+						if (res == -1) {
+							this.msglst.push({
+								id: this.nowuser.id,
+								msg: this.nowmsglst
+							})
+						} else {
+							this.msglst[res].msg = this.nowmsglst
+						}
+						this.scrollTop();
+						this.nowmsg = '';
+					},
+					//重构上线用户列表
+					createlst: function(lst) {
+						this.userlst = [];
+						for (d in lst) {
+							this.userlst.push({
+								id: lst[d].key,
+								name: lst[d].value,
+								state: 0
+							})
+						}
+					},
+					//指定用户清空消息
+					editState: async function(cid, isadd) {
+						let inx = await this.userlst.findIndex(t => {
+							return t.id == cid
+						});
+						console.log(inx, 123)
+						if (isadd) {
+							this.userlst[inx].state = Number(this.userlst[inx].state) + 1;
+						} else {
+							this.userlst[inx].state = 0;
+						}
+					},
+					//重置滚动条
+					scrollTop: function() {
+						let t = document.getElementById("t");
+						t.scrollTop = t.scrollHeight;
+					}
+				}
+			});</script>
+</body>
+</html>

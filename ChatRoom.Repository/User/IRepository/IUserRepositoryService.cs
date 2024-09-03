@@ -1,4 +1,5 @@
-﻿using ChatRoom.Model.Models.User;
+﻿using ChatRoom.Core.SerivceExtention;
+using ChatRoom.Model.Models.User;
 using ChatRoom.Repository.RepositoryBase;
 using ChatRoom.Repository.RepositoryBase.IRepositoryService;
 using System;

@@ -1,4 +1,4 @@
-﻿using ChatRoom.Core.CustomException;
+﻿using ChatRoom.Core.CustomExceptions;
 using ChatRoom.Core.Tools;
 using ChatRoom.Model.DTO.User;
 using ChatRoom.Model.Models.User;
@@ -24,40 +24,45 @@ namespace ChatRoom.Service.User.UserService
             this._userRepositoryService = userRepositoryService;
             this._logger = logger;
         }
-
+        /// <summary>
+        /// user register
+        /// </summary>
+        /// <param name="dto"></param>
+        /// <returns></returns>
+        /// <exception cref="CustomException"></exception>
         public Task<bool> Login(UserDTO dto)
-        {
-
-            //if (dto.UserName == null|| dto.Password==null)
-            //{
-            //    throw new CustomException("请输入用户名和密码");
-            //}
+        { 
             var userInfo = _userRepositoryService.QueryOne(t => t.UserName == dto.UserName);
             if (userInfo == null)
             {
-                throw new CustomException("用户名或密码错误");
+                throw new CustomException("The user name or password is incorrect");
             }
             string pdw = CommonTools.ComputeMD5(dto.Password + userInfo.Salt);
             if (pdw != userInfo.Password)
             {
-                throw new CustomException("用户名或密码错误");
+                throw new CustomException("The user name or password is incorrect");
             }
 
             userInfo.OnlineStatus = 1;
             var flag = _userRepositoryService.Update(userInfo);
             return Task.FromResult(flag);
         }
-
+        /// <summary>
+        /// user login
+        /// </summary>
+        /// <param name="dto"></param>
+        /// <returns></returns>
+        /// <exception cref="CustomException"></exception>
         public Task<bool> Register(UserDTO dto)
         {
             var userInfo = _userRepositoryService.QueryOne(t => t.UserName == dto.UserName);
             if (userInfo != null)
             {
-                throw new CustomException("用户名已存在");
+                throw new CustomException("The user name already exists");
             }
             if (!CommonTools.CheckPassword(dto.Password))
             {
-                throw new CustomException("密码强度不符合要求");
+                throw new CustomException("The password strength does not meet requirements");
             }
 
             UserDO user = new()

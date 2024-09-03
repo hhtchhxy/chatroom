@@ -10,8 +10,17 @@ namespace ChatRoom.Core.Cache
 {
     public class LocalCacheHelper
     {
-        public readonly static Dictionary<string, string> connections = new();
-        public readonly static ConcurrentQueue<MessageInfoDO> msgQueue = new ConcurrentQueue<MessageInfoDO>();
+        public readonly static Dictionary<string, string> Connections = new();
+        public readonly static ConcurrentQueue<MessageInfoDO> MsgQueue = new ConcurrentQueue<MessageInfoDO>();
+        public static void SetCache(string key,object value)
+        {
+            //TODO Cache
+        }
+        public static object GetCache(string key)
+        {
+            //TODO 
+            return "ab12";
+        }
 
     }
 }

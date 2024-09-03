@@ -15,7 +15,9 @@ namespace ChatRoom.Core.Hubs
         public record TransData(string Id, string User, string Message);
         Task ReceiveMessage(TransData data);
     }
-
+    /// <summary>
+    /// Websocket chat interface
+    /// </summary>
     public class ChatHub : Hub<IChatClient>
     {
         private readonly string systemid = "system";
@@ -29,16 +31,25 @@ namespace ChatRoom.Core.Hubs
                 info.Recipient = recipient;
                 info.Sender = data.User;
                 info.Content = data.Message;
-                info.RecordTime=DateTime.Now;
-                LocalCacheHelper.msgQueue.Enqueue(info);
+                info.RecordTime = DateTime.Now;
+                LocalCacheHelper.MsgQueue.Enqueue(info);
             }
         }
 
-        #region 发送消息
-
+        #region Send messages
+        /// <summary>
+        /// Send messages to all clients personally
+        /// </summary>
+        /// <param name="message"></param>
+        /// <returns></returns>
+        public async Task SendToAll(string message)
+        {
+            string cid = GetConnectionId();
+            await Clients.All.ReceiveMessage(new(cid, LocalCacheHelper.Connections[cid], message));
+        }
 
         /// <summary>
-        /// 以系统名义向所有客户端发送消息
+        /// Send messages to all clients on behalf of the system
         /// </summary>
         /// <param name="message"></param>
         /// <returns></returns>
@@ -46,7 +57,7 @@ namespace ChatRoom.Core.Hubs
 
 
         /// <summary>
-        /// 发送消息给指定用户(个人)
+        /// Send a message to the specified user (individual)
         /// </summary>
         /// <param name="id"></param>
         /// <param name="message"></param>
@@ -54,18 +65,35 @@ namespace ChatRoom.Core.Hubs
         public async Task SendToOne(string id, string message)
         {
             string cid = GetConnectionId();
-            var sendUser = LocalCacheHelper.connections[cid];
+            var sendUser = LocalCacheHelper.Connections[cid];
             var data = new TransData(cid, sendUser, message);
-            TransMessageInfo(data, LocalCacheHelper.connections[id]);
+            TransMessageInfo(data, LocalCacheHelper.Connections[id]);
             await Clients.Client(id).ReceiveMessage(data);
         }
-
+        /// <summary>
+        /// Send group message (individual)
+        /// </summary>
+        /// <param name="group"></param>
+        /// <param name="message"></param>
+        /// <returns></returns>
+        public async Task SendToGroup(string group, string message)
+        {
+            string cid = GetConnectionId();
+            await Clients.Group(group).ReceiveMessage(new(cid, LocalCacheHelper.Connections[cid], message));
+        }
+        /// <summary>
+        /// Send group message (system)
+        /// </summary>
+        /// <param name="group"></param>
+        /// <param name="message"></param>
+        /// <returns></returns>
+        public async Task SendSysToGroup(string group, string message) => await Clients.Group(group).ReceiveMessage(new(systemid, systemname, message));
 
         #endregion
 
-        #region SignalR用户
+        #region SignalR User
         /// <summary>
-        /// 获取连接的唯一 ID
+        /// 
         /// </summary>
         /// <returns></returns>
         public string GetConnectionId()
@@ -73,38 +101,63 @@ namespace ChatRoom.Core.Hubs
             return Context.ConnectionId;
         }
         #endregion
-
-
-        #region 临时用户操作
+        #region SignalR group
         /// <summary>
-        /// 添加到在线用户集
+        /// Actively join the group
+        /// </summary>
+        /// <param name="group"></param>
+        /// <returns></returns>
+        public async Task AddToGroup(string group)
+        {
+            string cid = GetConnectionId();
+            await Groups.AddToGroupAsync(cid, group);
+            await SendSysToGroup(group, $@"welcome{LocalCacheHelper.Connections[cid]}join");
+        }
+
+        /// <summary>
+        /// Passive joining group
+        /// </summary>
+        /// <param name="group"></param>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public async Task AddToGrouped(string group, string id)
+        {
+            string cid = GetConnectionId();
+            await Groups.AddToGroupAsync(id, group);
+            await SendSysToGroup(group, $@"welcome{LocalCacheHelper.Connections[cid]}join");
+        }
+        #endregion
+
+        #region 
+        /// <summary>
+        /// Add to online user set
         /// </summary>
         /// <param name="user"></param>
         /// <returns></returns>
         public async Task AddUser(string name)
         {
             string cid = GetConnectionId();
-            if (!LocalCacheHelper.connections.ContainsKey(cid))
+            if (!LocalCacheHelper.Connections.ContainsKey(cid))
             {
-                await Task.Run(() => LocalCacheHelper.connections.Add(cid, name));
+                await Task.Run(() => LocalCacheHelper.Connections.Add(cid, name));
                 await SendSysToAll("relst");
             }
         }
 
         /// <summary>
-        /// 获取在线用户
+        /// Get online users
         /// </summary>
         /// <returns></returns>
         public object GetUser()
         {
             string cid = GetConnectionId();
-            return LocalCacheHelper.connections.Where(t => !t.Key.Equals(cid));
+            return LocalCacheHelper.Connections.Where(t => !t.Key.Equals(cid));
         }
         #endregion
 
-        #region 重写连接断开钩子
+        #region 
         /// <summary>
-        /// 重写链接钩子
+        /// Override Link Hook
         /// </summary>
         /// <returns></returns>
         public override async Task OnConnectedAsync()
@@ -113,14 +166,14 @@ namespace ChatRoom.Core.Hubs
         }
 
         /// <summary>
-        /// 重写断开链接钩子
+        /// Override broken link hook
         /// </summary>
         /// <param name="exception"></param>
         /// <returns></returns>
         public override async Task OnDisconnectedAsync(Exception? exception)
         {
             string cid = GetConnectionId();
-            LocalCacheHelper.connections.Remove(cid);
+            LocalCacheHelper.Connections.Remove(cid);
             await SendSysToAll("relst");
             await base.OnDisconnectedAsync(exception);
         }

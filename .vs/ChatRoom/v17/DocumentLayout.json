@@ -1,12 +1,700 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\github\\chatroom\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\github\\chatroom\\chatroom.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|d:\\github\\chatroom\\chatroom.core\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|solutionrelative:chatroom.core\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|d:\\github\\chatroom\\chatroom.core\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|solutionrelative:chatroom.core\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|d:\\github\\chatroom\\chatroom.core\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|solutionrelative:chatroom.core\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|d:\\github\\chatroom\\chatroom.core\\customexceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|solutionrelative:chatroom.core\\customexceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6830B90F-1B91-4763-8B64-66300140B1C1}|ChatRoom.Service\\ChatRoom.Service.csproj|d:\\github\\chatroom\\chatroom.service\\user\\userservice\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6830B90F-1B91-4763-8B64-66300140B1C1}|ChatRoom.Service\\ChatRoom.Service.csproj|solutionrelative:chatroom.service\\user\\userservice\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6830B90F-1B91-4763-8B64-66300140B1C1}|ChatRoom.Service\\ChatRoom.Service.csproj|d:\\github\\chatroom\\chatroom.service\\user\\iuser\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6830B90F-1B91-4763-8B64-66300140B1C1}|ChatRoom.Service\\ChatRoom.Service.csproj|solutionrelative:chatroom.service\\user\\iuser\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\github\\chatroom\\chatroom.api\\chatroom.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\chatroom.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1CF2574-4857-49F4-A338-1F2E611E4880}|ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj|d:\\github\\chatroom\\chatroom.chatweb\\serivceextention\\chatwebextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1CF2574-4857-49F4-A338-1F2E611E4880}|ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj|solutionrelative:chatroom.chatweb\\serivceextention\\chatwebextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|d:\\github\\chatroom\\chatroom.core\\tools\\commontools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|solutionrelative:chatroom.core\\tools\\commontools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|d:\\github\\chatroom\\chatroom.core\\serivceextention\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|solutionrelative:chatroom.core\\serivceextention\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|d:\\github\\chatroom\\chatroom.core\\serivceextention\\iprateextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|solutionrelative:chatroom.core\\serivceextention\\iprateextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|d:\\github\\chatroom\\chatroom.core\\serivceextention\\ibasedomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|solutionrelative:chatroom.core\\serivceextention\\ibasedomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|d:\\github\\chatroom\\chatroom.core\\provider\\requiredbindingmetadataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|solutionrelative:chatroom.core\\provider\\requiredbindingmetadataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F79BBCA-8460-4D61-898C-2850AF568D1B}|ChatRoom.Model\\ChatRoom.Model.csproj|d:\\github\\chatroom\\chatroom.model\\models\\user\\userdo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F79BBCA-8460-4D61-898C-2850AF568D1B}|ChatRoom.Model\\ChatRoom.Model.csproj|solutionrelative:chatroom.model\\models\\user\\userdo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F79BBCA-8460-4D61-898C-2850AF568D1B}|ChatRoom.Model\\ChatRoom.Model.csproj|d:\\github\\chatroom\\chatroom.model\\models\\chat\\messageinfodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F79BBCA-8460-4D61-898C-2850AF568D1B}|ChatRoom.Model\\ChatRoom.Model.csproj|solutionrelative:chatroom.model\\models\\chat\\messageinfodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F79BBCA-8460-4D61-898C-2850AF568D1B}|ChatRoom.Model\\ChatRoom.Model.csproj|d:\\github\\chatroom\\chatroom.model\\dto\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F79BBCA-8460-4D61-898C-2850AF568D1B}|ChatRoom.Model\\ChatRoom.Model.csproj|solutionrelative:chatroom.model\\dto\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\github\\chatroom\\chatroom.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1CF2574-4857-49F4-A338-1F2E611E4880}|ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj|d:\\github\\chatroom\\chatroom.chatweb\\chatroom.chatweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A1CF2574-4857-49F4-A338-1F2E611E4880}|ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj|solutionrelative:chatroom.chatweb\\chatroom.chatweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1CF2574-4857-49F4-A338-1F2E611E4880}|ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj|d:\\github\\chatroom\\chatroom.chatweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1CF2574-4857-49F4-A338-1F2E611E4880}|ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj|solutionrelative:chatroom.chatweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|d:\\github\\chatroom\\chatroom.core\\cache\\localcachehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|solutionrelative:chatroom.core\\cache\\localcachehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6830B90F-1B91-4763-8B64-66300140B1C1}|ChatRoom.Service\\ChatRoom.Service.csproj|d:\\github\\chatroom\\chatroom.service\\messageworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6830B90F-1B91-4763-8B64-66300140B1C1}|ChatRoom.Service\\ChatRoom.Service.csproj|solutionrelative:chatroom.service\\messageworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|d:\\github\\chatroom\\chatroom.core\\cache\\redishelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|solutionrelative:chatroom.core\\cache\\redishelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C37F1A2-E09A-40D2-BAEF-EFC6CD4E563A}|ChatRoom.ChatServerApi\\ChatRoom.ChatServerApi.csproj|d:\\github\\chatroom\\chatroom.chatserverapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C37F1A2-E09A-40D2-BAEF-EFC6CD4E563A}|ChatRoom.ChatServerApi\\ChatRoom.ChatServerApi.csproj|solutionrelative:chatroom.chatserverapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C37F1A2-E09A-40D2-BAEF-EFC6CD4E563A}|ChatRoom.ChatServerApi\\ChatRoom.ChatServerApi.csproj|d:\\github\\chatroom\\chatroom.chatserverapi\\serivceextention\\chatserviceapiextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C37F1A2-E09A-40D2-BAEF-EFC6CD4E563A}|ChatRoom.ChatServerApi\\ChatRoom.ChatServerApi.csproj|solutionrelative:chatroom.chatserverapi\\serivceextention\\chatserviceapiextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\github\\chatroom\\chatroom.api\\serivceextention\\chatapiextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\serivceextention\\chatapiextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92EAF09-6535-44D2-A8D4-AFB2645692D5}|ChatRoom.Repository\\ChatRoom.Repository.csproj|d:\\github\\chatroom\\chatroom.repository\\chatroom.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A92EAF09-6535-44D2-A8D4-AFB2645692D5}|ChatRoom.Repository\\ChatRoom.Repository.csproj|solutionrelative:chatroom.repository\\chatroom.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\github\\chatroom\\chatroom.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1CF2574-4857-49F4-A338-1F2E611E4880}|ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj|d:\\github\\chatroom\\chatroom.chatweb\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1CF2574-4857-49F4-A338-1F2E611E4880}|ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj|solutionrelative:chatroom.chatweb\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1CF2574-4857-49F4-A338-1F2E611E4880}|ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj|d:\\github\\chatroom\\chatroom.chatweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1CF2574-4857-49F4-A338-1F2E611E4880}|ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj|solutionrelative:chatroom.chatweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1CF2574-4857-49F4-A338-1F2E611E4880}|ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj|d:\\github\\chatroom\\chatroom.chatweb\\wwwroot\\common.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A1CF2574-4857-49F4-A338-1F2E611E4880}|ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj|solutionrelative:chatroom.chatweb\\wwwroot\\common.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1CF2574-4857-49F4-A338-1F2E611E4880}|ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj|d:\\github\\chatroom\\chatroom.chatweb\\wwwroot\\chatindex.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1CF2574-4857-49F4-A338-1F2E611E4880}|ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj|solutionrelative:chatroom.chatweb\\wwwroot\\chatindex.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C37F1A2-E09A-40D2-BAEF-EFC6CD4E563A}|ChatRoom.ChatServerApi\\ChatRoom.ChatServerApi.csproj|d:\\github\\chatroom\\chatroom.chatserverapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C37F1A2-E09A-40D2-BAEF-EFC6CD4E563A}|ChatRoom.ChatServerApi\\ChatRoom.ChatServerApi.csproj|solutionrelative:chatroom.chatserverapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C37F1A2-E09A-40D2-BAEF-EFC6CD4E563A}|ChatRoom.ChatServerApi\\ChatRoom.ChatServerApi.csproj|d:\\github\\chatroom\\chatroom.chatserverapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1C37F1A2-E09A-40D2-BAEF-EFC6CD4E563A}|ChatRoom.ChatServerApi\\ChatRoom.ChatServerApi.csproj|solutionrelative:chatroom.chatserverapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92EAF09-6535-44D2-A8D4-AFB2645692D5}|ChatRoom.Repository\\ChatRoom.Repository.csproj|d:\\github\\chatroom\\chatroom.repository\\user\\irepository\\iuserrepositoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92EAF09-6535-44D2-A8D4-AFB2645692D5}|ChatRoom.Repository\\ChatRoom.Repository.csproj|solutionrelative:chatroom.repository\\user\\irepository\\iuserrepositoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1CF2574-4857-49F4-A338-1F2E611E4880}|ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj|d:\\github\\chatroom\\chatroom.chatweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1CF2574-4857-49F4-A338-1F2E611E4880}|ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj|solutionrelative:chatroom.chatweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C37F1A2-E09A-40D2-BAEF-EFC6CD4E563A}|ChatRoom.ChatServerApi\\ChatRoom.ChatServerApi.csproj|d:\\github\\chatroom\\chatroom.chatserverapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1C37F1A2-E09A-40D2-BAEF-EFC6CD4E563A}|ChatRoom.ChatServerApi\\ChatRoom.ChatServerApi.csproj|solutionrelative:chatroom.chatserverapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\github\\chatroom\\chatroom.api\\serivceextention\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\serivceextention\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|d:\\github\\chatroom\\chatroom.core\\filter\\modelvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A114696-2C26-40F4-BA38-C2697A848512}|ChatRoom.Core\\ChatRoom.Core.csproj|solutionrelative:chatroom.core\\filter\\modelvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api\\ChatRoom.Api.csproj|d:\\github\\chatroom\\chatroom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399CABC3-1137-4F32-8F88-FEB785A2EF5C}|ChatRoom.Api\\ChatRoom.Api.csproj|solutionrelative:chatroom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Service\\User\\UserService\\LoginService.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Service\\User\\UserService\\LoginService.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Service\\User\\UserService\\LoginService.cs",
+              "RelativeToolTip": "ChatRoom.Service\\User\\UserService\\LoginService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwB8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:44:29.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Service\\User\\IUser\\ILoginService.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Service\\User\\IUser\\ILoginService.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Service\\User\\IUser\\ILoginService.cs",
+              "RelativeToolTip": "ChatRoom.Service\\User\\IUser\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T08:16:33.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomException.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Core\\CustomExceptions\\CustomException.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Core\\CustomExceptions\\CustomException.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Core\\CustomExceptions\\CustomException.cs",
+              "RelativeToolTip": "ChatRoom.Core\\CustomExceptions\\CustomException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T06:13:38.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Core\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Core\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Core\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "ChatRoom.Core\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T06:12:34.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Results.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Core\\Results.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Core\\Results.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Core\\Results.cs",
+              "RelativeToolTip": "ChatRoom.Core\\Results.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T06:43:15.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Core\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Core\\Hubs\\ChatHub.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Core\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "ChatRoom.Core\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T06:43:59.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Api\\Startup.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\Startup.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Api\\Startup.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Startup.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwCgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T09:55:55.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChatRoom.Api",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Api\\ChatRoom.Api.csproj",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\ChatRoom.Api.csproj",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Api\\ChatRoom.Api.csproj",
+              "RelativeToolTip": "ChatRoom.Api\\ChatRoom.Api.csproj",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvw8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-03T08:01:13.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChatWebExtensions.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.ChatWeb\\SerivceExtention\\ChatWebExtensions.cs",
+              "RelativeDocumentMoniker": "ChatRoom.ChatWeb\\SerivceExtention\\ChatWebExtensions.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.ChatWeb\\SerivceExtention\\ChatWebExtensions.cs",
+              "RelativeToolTip": "ChatRoom.ChatWeb\\SerivceExtention\\ChatWebExtensions.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T07:16:48.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IBaseDomain.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Core\\SerivceExtention\\IBaseDomain.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Core\\SerivceExtention\\IBaseDomain.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Core\\SerivceExtention\\IBaseDomain.cs",
+              "RelativeToolTip": "ChatRoom.Core\\SerivceExtention\\IBaseDomain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:48:25.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPRateExtension.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Core\\SerivceExtention\\IPRateExtension.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Core\\SerivceExtention\\IPRateExtension.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Core\\SerivceExtention\\IPRateExtension.cs",
+              "RelativeToolTip": "ChatRoom.Core\\SerivceExtention\\IPRateExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:48:26.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CommonTools.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Core\\Tools\\CommonTools.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Core\\Tools\\CommonTools.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Core\\Tools\\CommonTools.cs",
+              "RelativeToolTip": "ChatRoom.Core\\Tools\\CommonTools.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:48:33.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RequiredBindingMetadataProvider.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Core\\Provider\\RequiredBindingMetadataProvider.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Core\\Provider\\RequiredBindingMetadataProvider.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Core\\Provider\\RequiredBindingMetadataProvider.cs",
+              "RelativeToolTip": "ChatRoom.Core\\Provider\\RequiredBindingMetadataProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:48:21.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserDO.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Model\\Models\\User\\UserDO.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Model\\Models\\User\\UserDO.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Model\\Models\\User\\UserDO.cs",
+              "RelativeToolTip": "ChatRoom.Model\\Models\\User\\UserDO.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:44:19.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MessageInfoDO.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Model\\Models\\Chat\\MessageInfoDO.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Model\\Models\\Chat\\MessageInfoDO.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Model\\Models\\Chat\\MessageInfoDO.cs",
+              "RelativeToolTip": "ChatRoom.Model\\Models\\Chat\\MessageInfoDO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:44:13.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Core\\SerivceExtention\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Core\\SerivceExtention\\ServiceExtensions.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Core\\SerivceExtention\\ServiceExtensions.cs",
+              "RelativeToolTip": "ChatRoom.Core\\SerivceExtention\\ServiceExtensions.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T07:11:27.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ChatRoom.ChatWeb",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj",
+              "RelativeDocumentMoniker": "ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj",
+              "RelativeToolTip": "ChatRoom.ChatWeb\\ChatRoom.ChatWeb.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-03T08:14:29.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Api\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Api\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAwEMAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T06:01:13.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LocalCacheHelper.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Core\\Cache\\LocalCacheHelper.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Core\\Cache\\LocalCacheHelper.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Core\\Cache\\LocalCacheHelper.cs",
+              "RelativeToolTip": "ChatRoom.Core\\Cache\\LocalCacheHelper.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T13:40:12.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RedisHelper.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Core\\Cache\\RedisHelper.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Core\\Cache\\RedisHelper.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Core\\Cache\\RedisHelper.cs",
+              "RelativeToolTip": "ChatRoom.Core\\Cache\\RedisHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:04:43.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.ChatWeb\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ChatRoom.ChatWeb\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.ChatWeb\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ChatRoom.ChatWeb\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-03T05:59:45.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Model\\DTO\\User\\UserDTO.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Model\\DTO\\User\\UserDTO.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Model\\DTO\\User\\UserDTO.cs",
+              "RelativeToolTip": "ChatRoom.Model\\DTO\\User\\UserDTO.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwB0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T13:41:46.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MessageWorker.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Service\\MessageWorker.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Service\\MessageWorker.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Service\\MessageWorker.cs",
+              "RelativeToolTip": "ChatRoom.Service\\MessageWorker.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwCUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:04:52.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ChatApiExtensions.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Api\\SerivceExtention\\ChatApiExtensions.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\SerivceExtention\\ChatApiExtensions.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Api\\SerivceExtention\\ChatApiExtensions.cs",
+              "RelativeToolTip": "ChatRoom.Api\\SerivceExtention\\ChatApiExtensions.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAwHAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T06:02:01.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ChatServiceApiExtensions.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.ChatServerApi\\SerivceExtention\\ChatServiceApiExtensions.cs",
+              "RelativeDocumentMoniker": "ChatRoom.ChatServerApi\\SerivceExtention\\ChatServiceApiExtensions.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.ChatServerApi\\SerivceExtention\\ChatServiceApiExtensions.cs",
+              "RelativeToolTip": "ChatRoom.ChatServerApi\\SerivceExtention\\ChatServiceApiExtensions.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAkwGEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T08:01:52.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.ChatServerApi\\Startup.cs",
+              "RelativeDocumentMoniker": "ChatRoom.ChatServerApi\\Startup.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.ChatServerApi\\Startup.cs",
+              "RelativeToolTip": "ChatRoom.ChatServerApi\\Startup.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T08:00:28.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ChatRoom.Repository",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Repository\\ChatRoom.Repository.csproj",
+              "RelativeDocumentMoniker": "ChatRoom.Repository\\ChatRoom.Repository.csproj",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Repository\\ChatRoom.Repository.csproj",
+              "RelativeToolTip": "ChatRoom.Repository\\ChatRoom.Repository.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-03T09:22:28.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\appsettings.Development.json",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Api\\appsettings.Development.json",
+              "RelativeToolTip": "ChatRoom.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-03T08:05:19.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.ChatWeb\\Startup.cs",
+              "RelativeDocumentMoniker": "ChatRoom.ChatWeb\\Startup.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.ChatWeb\\Startup.cs",
+              "RelativeToolTip": "ChatRoom.ChatWeb\\Startup.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T06:02:54.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.ChatWeb\\Program.cs",
+              "RelativeDocumentMoniker": "ChatRoom.ChatWeb\\Program.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.ChatWeb\\Program.cs",
+              "RelativeToolTip": "ChatRoom.ChatWeb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T05:59:21.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "common.js",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.ChatWeb\\wwwroot\\common.js",
+              "RelativeDocumentMoniker": "ChatRoom.ChatWeb\\wwwroot\\common.js",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.ChatWeb\\wwwroot\\common.js",
+              "RelativeToolTip": "ChatRoom.ChatWeb\\wwwroot\\common.js",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-03T09:06:39.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "chatIndex.html",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.ChatWeb\\wwwroot\\chatIndex.html",
+              "RelativeDocumentMoniker": "ChatRoom.ChatWeb\\wwwroot\\chatIndex.html",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.ChatWeb\\wwwroot\\chatIndex.html",
+              "RelativeToolTip": "ChatRoom.ChatWeb\\wwwroot\\chatIndex.html",
+              "ViewState": "AgIAAIIAAAAAAAAAAADwv5IAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-03T08:17:53.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.ChatServerApi\\Program.cs",
+              "RelativeDocumentMoniker": "ChatRoom.ChatServerApi\\Program.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.ChatServerApi\\Program.cs",
+              "RelativeToolTip": "ChatRoom.ChatServerApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T08:00:09.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.ChatServerApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ChatRoom.ChatServerApi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.ChatServerApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ChatRoom.ChatServerApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-03T08:14:58.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IUserRepositoryService.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Repository\\User\\IRepository\\IUserRepositoryService.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Repository\\User\\IRepository\\IUserRepositoryService.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Repository\\User\\IRepository\\IUserRepositoryService.cs",
+              "RelativeToolTip": "ChatRoom.Repository\\User\\IRepository\\IUserRepositoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T08:16:07.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.ChatWeb\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ChatRoom.ChatWeb\\appsettings.Development.json",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.ChatWeb\\appsettings.Development.json",
+              "RelativeToolTip": "ChatRoom.ChatWeb\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-03T08:09:28.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.ChatServerApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ChatRoom.ChatServerApi\\appsettings.Development.json",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.ChatServerApi\\appsettings.Development.json",
+              "RelativeToolTip": "ChatRoom.ChatServerApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-03T08:05:24.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Api\\SerivceExtention\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\SerivceExtention\\ServiceExtensions.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Api\\SerivceExtention\\ServiceExtensions.cs",
+              "RelativeToolTip": "ChatRoom.Api\\SerivceExtention\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T06:01:52.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ModelValidationFilter.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Core\\Filter\\ModelValidationFilter.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Core\\Filter\\ModelValidationFilter.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Core\\Filter\\ModelValidationFilter.cs",
+              "RelativeToolTip": "ChatRoom.Core\\Filter\\ModelValidationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T06:04:46.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github\\chatroom\\ChatRoom.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ChatRoom.Api\\Program.cs",
+              "ToolTip": "D:\\github\\chatroom\\ChatRoom.Api\\Program.cs",
+              "RelativeToolTip": "ChatRoom.Api\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAABIwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T13:47:36.53Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

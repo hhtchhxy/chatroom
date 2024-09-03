@@ -8,6 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Filter\**" />
+    <Compile Remove="Middleware\**" />
+    <Content Remove="Filter\**" />
+    <Content Remove="Middleware\**" />
+    <EmbeddedResource Remove="Filter\**" />
+    <EmbeddedResource Remove="Middleware\**" />
+    <None Remove="Filter\**" />
+    <None Remove="Middleware\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="SerivceExtention\ServiceExtensions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="IGeekFan.AspNetCore.Knife4jUI" Version="0.0.16" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />
   </ItemGroup>

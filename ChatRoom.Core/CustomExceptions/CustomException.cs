@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChatRoom.Core.CustomException
+namespace ChatRoom.Core.CustomExceptions
 {
+    /// <summary>
+    /// user custom exception,no logging
+    /// </summary>
     public class CustomException: Exception
     {
         public int Code { get; set; }

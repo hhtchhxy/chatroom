@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChatRoom.Core.CustomException
+namespace ChatRoom.Core.CustomExceptions
 {
      
     public enum ResultCode
@@ -13,7 +13,7 @@ namespace ChatRoom.Core.CustomException
         [Description("success")]
         SUCCESS = 200,
 
-        [Description("系统异常")]
+        [Description("system exception")]
         ERROR = 500, 
 
         [Description("forbidden")]

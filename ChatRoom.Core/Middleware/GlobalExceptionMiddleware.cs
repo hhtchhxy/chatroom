@@ -1,18 +1,17 @@
-﻿using ChatRoom.Core.CustomException;
-using ChatRoom.Core;
+﻿using ChatRoom.Core.Extension;
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Server.IIS;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Threading.Tasks;
-using ChatRoom.Core.Extension;
+using ChatRoom.Core.CustomExceptions;
 
-namespace ChatRoom.Api.Middleware
+namespace ChatRoom.Core.Middleware
 {
     public class GlobalExceptionMiddleware
     {
@@ -37,25 +36,30 @@ namespace ChatRoom.Api.Middleware
                 await HandleExceptionAsync(context, ex);
             }
         }
-
+        /// <summary>
+        /// Capture global exceptions and record non custom exception logs
+        /// </summary>
+        /// <param name="context"></param>
+        /// <param name="ex"></param>
+        /// <returns></returns>
         private async Task HandleExceptionAsync(HttpContext context, Exception ex)
         {
-           
+
             int code = (int)ResultCode.ERROR;
             string msg;
-            string error = string.Empty;
-            //自定义异常
+            string error = string.Empty; 
             if (ex is CustomException customException)
             {
                 code = customException.Code == 0 ? (int)ResultCode.SUCCESS : (int)ResultCode.ERROR;
-                msg = customException.Message; 
-            } 
+                msg = customException.Message;
+            }
             else
             {
                 code = (int)ResultCode.ERROR;
-                msg = ex.Message;
+                //msg = ex.Message;
+                msg = "system exception";
                 string ip = HttpContextExtension.GetClientUserIp(context);
-                _logger.LogError(code,$"ip:{ip};msg:{msg}" );
+                _logger.LogError(code, $"ip:{ip};msg:{msg}");
             }
             var options = new JsonSerializerOptions
             {
@@ -65,19 +69,9 @@ namespace ChatRoom.Api.Middleware
             };
 
             ApiResult apiResult = new(code, msg);
-            string responseResult = JsonSerializer.Serialize(apiResult, options).ToLower();            
+            string responseResult = JsonSerializer.Serialize(apiResult, options).ToLower();
             context.Response.ContentType = "text/json;charset=utf-8";
-            await context.Response.WriteAsync(responseResult, System.Text.Encoding.UTF8);             
-        }
-
-        public static Endpoint GetEndpoint(HttpContext context)
-        {
-            if (context == null)
-            {
-                throw new ArgumentNullException(nameof(context));
-            }
-
-            return context.Features.Get<IEndpointFeature>()?.Endpoint;
-        }
+            await context.Response.WriteAsync(responseResult, Encoding.UTF8);
+        } 
     }
 }

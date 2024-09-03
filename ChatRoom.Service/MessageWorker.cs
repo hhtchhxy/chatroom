@@ -35,12 +35,12 @@ namespace ChatRoom.Service
                     List<MessageInfoDO> messages = new List<MessageInfoDO>();
                     try
                     {
-                        int queueLen = LocalCacheHelper.msgQueue.Count;
+                        int queueLen = LocalCacheHelper.MsgQueue.Count;
                         if (queueLen > 0)
                         {
                             _logger.LogInformation($"MessageWorker.msgQueue - {queueLen}");
                             int listCount = 0;
-                            while(LocalCacheHelper.msgQueue.TryDequeue(out MessageInfoDO info))
+                            while(LocalCacheHelper.MsgQueue.TryDequeue(out MessageInfoDO info))
                             {
                                 messages.Add(info); 
                                 if (messages.Count>= batchNum|| messages.Count==queueLen)

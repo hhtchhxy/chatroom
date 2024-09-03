@@ -9,21 +9,28 @@ using System.Threading.Tasks;
 namespace ChatRoom.Model.DTO.User
 {
     public class UserDTO
-    { 
+    {
+        
         public string UserId { get; set; }
-         
+
 
         /// <summary>
-        /// 用户名
+        /// Username
         /// </summary> 
-        [Required(ErrorMessage ="用户名或密码必填")]
+        [Required(ErrorMessage = "Username required")]
         public string UserName { get; set; }
 
         /// <summary>
-        /// 密码
+        /// Password
         /// </summary> 
-        [Required(ErrorMessage = "用户名或密码必填")]
-        public string Password { get; set; } 
-       
+        [Required(ErrorMessage = "Password required")]
+        public string Password { get; set; }
+        /// <summary>
+        /// Verification code
+        /// </summary>
+
+        public string VerificationCode { get; set; } = "ab12";
+        public string UUID { get; set; }
+
     }
 }

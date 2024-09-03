@@ -1,11 +1,15 @@
-﻿using ChatRoom.Api.Filter;
-using ChatRoom.Core.Extension;
+﻿using ChatRoom.Core.Extension;
+using ChatRoom.Core.Filter;
 using ChatRoom.Core.Provider;
+using ChatRoom.Core.SerivceExtention;
 using ChatRoom.Core.SqlSuger;
 using ChatRoom.Model.Config;
 using ChatRoom.Repository.Chat.IRepository;
 using ChatRoom.Repository.Chat.Repository;
+using ChatRoom.Repository.RepositoryBase.IRepositoryService;
+using ChatRoom.Repository.RepositoryBase.RepositoryService;
 using ChatRoom.Service;
+using Hei.Captcha;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -17,6 +21,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using System;
 using System.ComponentModel;
+using System.Configuration;
 using System.IO;
 using System.Reflection;
 using System.Text.Encodings.Web;
@@ -24,23 +29,23 @@ using System.Text.Unicode;
 
 namespace ChatRoom.Api.SerivceExtention
 {
-    
-    public static class ChatRoomServiceExtensions
+
+    public static class ChatApiExtensions
     {
         private static readonly ILogger _logger;
 
-        static ChatRoomServiceExtensions()
+        static ChatApiExtensions()
         {
             var loggerFactory = LoggerFactory.Create(builder =>
             {
                 builder.AddConsole();
             });
-            _logger = _logger = loggerFactory.CreateLogger("ChatRoomServiceExtensions");
+            _logger = _logger = loggerFactory.CreateLogger("ChatApiExtensions");
         }
-        public static void ApiConfigure(this IServiceCollection services,IHostEnvironment hostingEnvironment)
+        public static void ApiConfigure(this IServiceCollection services, IHostEnvironment hostingEnvironment)
         {
-            var builder = new ConfigurationBuilder(); 
-           
+            var builder = new ConfigurationBuilder();
+
             string jsonFilePath = "";
             try
             {
@@ -58,12 +63,12 @@ namespace ChatRoom.Api.SerivceExtention
                 }
                 else
                 {
-                    _logger.LogInformation("未找到配置文件：" + jsonFilePath);
+                    _logger.LogInformation("Configuration file not found：" + jsonFilePath);
                 }
             }
             catch (Exception e)
             {
-                _logger.LogError(e, "读取json文件异常" + jsonFilePath);
+                _logger.LogError(e, "Description Failed to read the configuration file" + jsonFilePath);
                 throw e;
             }
             IConfigurationRoot root = builder.Build();
@@ -95,7 +100,7 @@ namespace ChatRoom.Api.SerivceExtention
             });
             services.Configure<ApiBehaviorOptions>(options =>
             {
-                options.SuppressModelStateInvalidFilter = true; // 使用自定义模型验证
+                options.SuppressModelStateInvalidFilter = true; 
             });
             services.AddControllers(options => options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true);
             services.AddSwaggerGen(c =>
@@ -105,14 +110,14 @@ namespace ChatRoom.Api.SerivceExtention
                 c.IncludeXmlComments(xmlPath);
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ChatRoom API", Version = "v1" });
             });
-            services.AddHostedService<MessageWorker>();
-            services.AddSingleton<IMessageRepositoryService, MessageRepositoryService>();
-            var connection = root.GetSection(nameof(ConnectionStrings)).Get<ConnectionStrings>();  
-            services.AddAutoInject("ChatRoom");
-            if (connection != null) 
-                services.AddSqlSugarSetup(connection.DBConnection);                  
-            } 
-        
+            services.AddHeiCaptcha(); 
+            services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>)); 
+            var connection = root.GetSection(nameof(ConnectionStrings)).Get<ConnectionStrings>();
+            services.AddAutoInject("ChatRoom"); 
+            services.AddIPRate(root);
+            if (connection != null)
+                services.AddSqlSugarSetup(connection.DBConnection);
+        }
     }
 }
 
